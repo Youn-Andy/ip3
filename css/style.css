@@ -98,7 +98,10 @@ body {
     color: white;
     border: white;
 }
-
+#footer-icons{
+    align-items: center;
+    padding: 12%;
+}
 #footer-text{
     text-align: center;
 }
