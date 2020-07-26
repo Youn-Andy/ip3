@@ -28,7 +28,8 @@ body {
     transform: translate(-50%, -50%);
     color: white;
 }
-.landing-text img{
+
+.landing-text img {
     padding: 40%;
     left: 10%;
 }
@@ -61,4 +62,24 @@ body {
 
 #design p {
     display: none;
+}
+
+#contact-us {
+    background-image: url("/images/c_image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+#contact-us h3 {
+    text-align: center;
+}
+
+#contact-us form {
+    align-items: center;
+    padding: 20%;
+    /*  background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); */
 }
