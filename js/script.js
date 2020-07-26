@@ -3,8 +3,13 @@ function myFunction() {
 }
 
 $(document).ready(function () {
-    $("#design-ls").click(function () {
+    $("img#des").click(function () {
         $("#design").toggle();
     })
-
+    $("img#dev").click(function(){
+        $("#development").toggle():
+    })
+    $("img#product").click(function(){
+        $("prod").toggle();
+    })
 }) 
