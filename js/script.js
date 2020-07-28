@@ -3,13 +3,18 @@ function myFunction() {
 }
 
 $(document).ready(function () {
-    $("img#des").click(function () {
-        $("#design").toggle();
+    $("#des").click(function () {
+        $("p#design").toggle();
     })
-    $("img#dev").click(function(){
-        $("#development").toggle():
+    $("div#dev").click(function () {
+        $("p#development").toggle();
     })
-    $("img#product").click(function(){
-        $("prod").toggle();
+    $("#product").click(function () {
+        $("p#prod").toggle();
     })
-}) 
+});
+$(document).ready(function () {
+    $("#work4").hover(function () {
+        $("#text4").append()
+    })
+})

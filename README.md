@@ -20,3 +20,8 @@ CSS
 JAVASCRIPT
 JQUERY
 BOOTSTRAP
+*CONTACT INFORMATION*
+Have any questions or suggestions you can send to my email ```ayietaphilip00@outlook.com```
+
+*WEBSITE LIVE LINK*
+Here is a live link to the website ```https://youn-andy.github.io/ip3```
