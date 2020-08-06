@@ -17,7 +17,7 @@
         <div class="landing-text">
             <h1>WELCOME <br> TO DELANI STUDIO</h1>
             <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-            <img src="./logo/mouse_click.png" alt="" >
+            <img src="./logo/mouse_click.png" alt="">
         </div>
     </div>
     <div class="container-fluid" id="about-us">
@@ -39,130 +39,147 @@
             <p>Based on your requirements, we can provide a complete offering or just the pieces you need</p>
         </div>
     </div>
-    <div class="container" id="we-do">
-        <h3>WHAT WE DO</h3>
-        <br>
-        <div class="row">
-            <div class="col-md-4">
-                <img id="des" src="services_icons/design_icon.png" alt="Design">
-                <h4>DESIGN</h4>
-                <div id="design">
-                    <p>Our design practices offers a full range of services <br> including brand strategy, interaction
-                        and visual design <br> and user experience testing </p>
-                    <p>Throughout your project, our designers create and <br> implement visual design and workflows,
-                        solicit user <br> feedback and work with you to make sure what gets built <br> is what is
-                        needed.</p>
-                </div>
-
-            </div>
-            <div class="col-md-4">
-                <img id="dev" src="services_icons/dev_icon.png" alt="Development">
-                <h4>DEVELOPMENT</h4>
-                <div id="development">
-                    <p>All engineers are fluent in the latest enterprise, mobile <br> and web development technologies
-                    </p>
-                    <p>They collaborate with your team to write, and improve <br> code in a daily basis, using proven
-                        practices such as <br> test-driven development and pair programming</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <img id="product" src="services_icons/product_icon.png" alt="product">
-                <h4>PRODUCT MANAGEMENT</h4>
-                <div id="prod">
-                    <p>Planning and development is iterative. Because we are <br> constantly coding and testing, the
-                        products we build are <br> always ready to go live</p>
-                    <p>This iterative process allows for changes as business <br> requirements evolve</p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <h3>PORTFOLIO</h3>
+    <div class="container what-we-do">
+        <h3 class="text-center pb-3 text-uppercase">what we do</h3>
+        <div class="icons text-center">
             <div class="row">
+                <div class="col-md-4">
+                    <div class="container design">
+                        <figure id="fig-des">
+                            <img src="services_icons/design_icon.png" id="des-img" alt="design icon">
+                            <figcaption>design</figcaption>
 
-                <div class="col-md-3" id="work4-h">
-                    <img id="work4" src="portfolio/work4.jpg" alt="">
-                    <div class="middle">
-                        <p id="text4">Hello</p>
+                        </figure>
+                        <div id="design-desc">
+                            <h6>design</h6>
+                            <p>Our design practice offers a full range of services including brand strategy, interaction
+                                and
+                                visual design and user experience testing.</p>
+                            <p>Throughout your project, our designers create and implement visual design and workflows,
+                                solicit
+                                user feedback and work with you to make sure what gets built is what is needed.</p>
+                        </div>
                     </div>
-
                 </div>
-                <div class="col-md-3">
-                    <img id="work3" src="portfolio/work3.jpg" alt="">
-
+                <div class="col-md-4">
+                    <div class="container development">
+                        <figure id="fig-dev">
+                            <img src="services_icons/dev_icon.png" alt="development icon">
+                            <figcaption>development</figcaption>
+                        </figure>
+                        <div id="dev-paragraph">
+                            <h6>development</h6>
+                            <p>All engineers are fluent in the latest enterprise, mobile and web development
+                                technologies.</p>
+                            <p>They collaborate with your team to write, and improve code on a daily basis, using proven
+                                practices such as test-driven development and pair programming.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <img id="work2" src="portfolio/work2.jpg" alt="">
+                <div class="col-md-4">
+                    <div class="container product-mgmt">
 
+                        <figure id="fig-prod">
+                            <img src="services_icons/product_icon.png" alt="management icon">
+                            <figcaption>product management</figcaption>
+                        </figure>
+                        <div id="prod-paragragh">
+                            <h6>product management</h6>
+                            <p>Planning and development is iterative. Because we are constantly coding and testing,
+                                the products
+                                we build are always ready to go live.</p>
+                            <p>This iterative process allows for changes as business requirements evolve.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <img id="work1" src="portfolio/work1.jpg" alt="">
-
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <img id="work5" src="portfolio/work5.jpg" alt="">
-
-                </div>
-                <div class="col-md-3">
-                    <img id="work6" src="portfolio/work6.jpg" alt="">
-
-                </div>
-                <div class="col-md-3">
-                    <img id="work7" src="portfolio/work7.jpg" alt="">
-
-                </div>
-                <div class="col-md-3">
-                    <img id="work8" src="portfolio/work8.jpg" alt="">
-
-                </div>
-
             </div>
         </div>
-    </div>
 
-    <div id="contact-us">
-        <h3>CONTACT US</h3>
-        <form action="https://formspree.io/xgenrbar" method="POST" id="message">
-            <div class="form-row">
-                <div class="col-md-6">
-                    <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+        <div class="container portfolio">
+            <h3 class="text-center text-uppercase p-3">portfolio</h3>
+            <div class="container row1">
+                <div class="row">
+                    <div class="col-md-3 p-3 work-portfolio1">
+                        <img src="portfolio/work4.jpg" class="img-fluid work-image" alt="work 4">
+                        <p class="text-center text-uppercase" id="lay1">dark<br>house</p>
+                    </div>
+                    <div class="col-md-3 p-3 work-portfolio2">
+                        <img src="portfolio/work3.jpg" class="img-fluid work-image" alt="work 3">
+                        <p class="text-uppercase text-center" id="lay2">ontario<br>security</p>
+                    </div>
+                    <div class="col-md-3 p-3 work-portfolio3">
+                        <img src="portfolio/work2.jpg" class="img-fluid work-image" alt="work 2">
+                        <p class="text-uppercase text-center" id="lay3">orange<br>house</p>
+                    </div>
+                    <div class="col-md-3 p-3 work-portfolio4">
+                        <img src="portfolio/work1.jpg" class="img-fluid work-image" alt="work 1">
+                        <p class="text-center" id="lay4">JIM<br>CARREY</p>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <input type="text" class="form-control" id="email" placeholder="Email" name="_replyto">
+            </div>
+            <div class="container row2 work-portfolio">
+                <div class="row">
+                    <div class="col-md-3 p-3 work-portfolio5">
+                        <img src="portfolio/work5.jpg" class="img-fluid work-image" alt="work 5">
+                        <p class="text-uppercase text-center" id="lay5">good day<br>blog</p>
+                    </div>
+                    <div class="col-md-3 p-3 work-portfolio6">
+                        <img src="portfolio/work6.jpg" class="img-fluid work-image" alt="work 6">
+                        <p class="text-uppercase text-center" id="lay6">input<br>showcase</p>
+                    </div>
+                    <div class="col-md-3 p-3 work-portfolio7">
+                        <img src="portfolio/work7.jpg" class="img-fluid work-image" alt="work 7">
+                        <p class="text-uppercase text-center" id="lay7">burned<br>company</p>
+                    </div>
+                    <div class="col-md-3 p-3 work-portfolio8">
+                        <img src="portfolio/work8.jpg" class="img-fluid work-image" alt="work 8">
+                        <p class="text-uppercase text-center" id="lay8">giraffe<br>restaurant</p>
+                    </div>
                 </div>
-            </div>
-            <div class="form-group">
-                <label for="message"></label>
-                <textarea class="form-control" rows="5" id="comment" placeholder="Your message here..."></textarea>
-            </div>
-            <button type="submit" class="btn btn-dark" onclick="myFunction()"> Send</button>
-        </form>
-    </div>
-    <footer>
-        <div class="container-fluid" id="footer-icons">
-            <div class="row">
-                <div class="col"><img src="social_icons/twitter.png" alt=""></div>
-                <div class="col"><img src="social_icons/dribble.png" alt=""></div>
-                <div class="col"><img src="social_icons/facebook.png" alt=""></div>
-                <div class="col"><img src="social_icons/g_plus.png" alt=""></div>
-                <div class="col"><img src="social_icons/skype.png" alt=""></div>
-                <div class="col"><img src="social_icons/you_tube.png" alt=""></div>
-                <div class="col"><img src="social_icons/behance.png" alt=""></div>
-                <div class="col"><img src="social_icons/pinterest.png" alt=""></div>
-                <div class="col"><img src="social_icons/stumble_upon.png" alt=""></div>
-            </div>
-            <div id="footer-text">
-                <p>DELANI STUDIO</p>
-                <p>2019</p>
-
             </div>
         </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+
+        <div id="contact-us">
+            <h3>CONTACT US</h3>
+            <form action="https://formspree.io/xgenrbar" method="POST" id="message">
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="email" placeholder="Email" name="_replyto">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message"></label>
+                    <textarea class="form-control" rows="5" id="comment" placeholder="Your message here..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark" onclick="myFunction()"> Send</button>
+            </form>
+        </div>
+        <footer>
+            <div class="container-fluid" id="footer-icons">
+                <div class="row">
+                    <div class="col"><img src="social_icons/twitter.png" alt=""></div>
+                    <div class="col"><img src="social_icons/dribble.png" alt=""></div>
+                    <div class="col"><img src="social_icons/facebook.png" alt=""></div>
+                    <div class="col"><img src="social_icons/g_plus.png" alt=""></div>
+                    <div class="col"><img src="social_icons/skype.png" alt=""></div>
+                    <div class="col"><img src="social_icons/you_tube.png" alt=""></div>
+                    <div class="col"><img src="social_icons/behance.png" alt=""></div>
+                    <div class="col"><img src="social_icons/pinterest.png" alt=""></div>
+                    <div class="col"><img src="social_icons/stumble_upon.png" alt=""></div>
+                </div>
+                <div id="footer-text">
+                    <p>DELANI STUDIO</p>
+                    <p>2019</p>
+
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
 </body>
 
 </html>
